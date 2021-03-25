@@ -1,0 +1,392 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Tempus';
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Tempus';
+  src: url("fonts/tempus-sans-itc.eot");
+  src: local("☺"), url("fonts/tempus-sans-itc.woff") format("woff"), url("fonts/tempus-sans-itc.ttf") format("truetype"), url("fonts/tempus-sans-itc.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home {
+  background-image: url("image.img/page1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home__nav {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home__nav-liens {
+  width: 100%;
+}
+
+.home__nav-liens ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 30px;
+}
+
+.home__nav-liens li a {
+  text-decoration: none;
+  color: azure;
+}
+
+.home__nav-grad_line3 {
+  width: 1px;
+  height: 3.5vh;
+  background-repeat: no-repeat;
+  border-top: 25px solid white;
+  margin-top: 10px;
+}
+
+.home__nav-grad_line2 {
+  width: 3px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(transparent));
+  background-image: linear-gradient(to bottom, white, transparent);
+}
+
+.home__entete {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home__entete-grad-line1 {
+  background-color: white;
+  width: 300px;
+  height: 1px;
+  margin-left: -415px;
+}
+
+.home__entete-title {
+  color: white;
+  word-spacing: 0.8rem;
+  letter-spacing: 0.4rem;
+  margin-left: -400px;
+  margin-bottom: 15px;
+}
+
+.home__entete-title2 {
+  color: white;
+  font-size: 350%;
+  word-spacing: 0.8rem;
+  letter-spacing: 1.2rem;
+  margin-top: 15px;
+}
+
+.second-page {
+  background-image: url("image.img/page.2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  border-top: 5px solid white;
+}
+
+.second-page__text {
+  position: absolute;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 35%;
+}
+
+.second-page__text__paragraphe1 {
+  color: white;
+  font-size: 20px;
+  width: 500px;
+}
+
+.second-page__ensemble-propos {
+  position: relative;
+}
+
+.second-page__ensemble-propos-grad_line5 {
+  margin-left: 15%;
+  width: 3px;
+  height: 3.5vh;
+  background-repeat: no-repeat;
+  border-top: 125px solid white;
+}
+
+.second-page__ensemble-propos-propos1 {
+  margin-top: -75px;
+  margin-left: 10%;
+  font-size: 550%;
+  color: black;
+  opacity: 0.44;
+  word-spacing: 0.8rem;
+  letter-spacing: 0.4rem;
+}
+
+.second-page__ensemble-propos-propos2 {
+  margin-top: -50px;
+  font-size: 375%;
+  margin-left: 10%;
+  color: white;
+  word-spacing: 0.8rem;
+  letter-spacing: 0.4rem;
+}
+
+.second-page__ensemble-propos-grad_line6 {
+  margin-top: 15px;
+  margin-left: 15%;
+  width: 3px;
+  height: 55vh;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(transparent));
+  background-image: linear-gradient(to bottom, white, transparent);
+}
+
+.third-page {
+  background-image: url("image.img/page.3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.third-page__haut-de-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-page__haut-de-page-grad-line7 {
+  background-color: white;
+  width: 300px;
+  height: 5px;
+  margin-top: 5%;
+  margin-right: 50px;
+}
+
+.third-page__haut-de-page-competences {
+  color: white;
+  font-size: 375%;
+  margin-top: 5%;
+  letter-spacing: 0.4rem;
+}
+
+.third-page__haut-de-page-grad-line8 {
+  background-color: white;
+  width: 300px;
+  height: 5px;
+  margin-top: 5%;
+  margin-left: 50px;
+}
+
+.third-page__competences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 150px;
+}
+
+.third-page__competences-block1 {
+  color: white;
+  font-size: 200%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-page__competences-block1-grad_line9 {
+  background-color: white;
+  margin: 25px;
+  width: 150px;
+  height: 1px;
+}
+
+.third-page__competences-paragraphe2 {
+  margin-top: 1%;
+  color: white;
+  font-size: 20px;
+  width: 800px;
+}
+
+.third-page__competences-block2 {
+  color: white;
+  font-size: 200%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-page__competences-block2-grad_line10 {
+  background-color: white;
+  margin: 25px;
+  width: 150px;
+  height: 1px;
+}
+
+.third-page__icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-page__icones-icones1 {
+  margin-top: 4%;
+}
+
+.fourth-page {
+  background-image: url("image.img/page.4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.fourth-page__projets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth-page__projets-grad-line11 {
+  background-image: -webkit-gradient(linear, right top, left top, from(white), to(transparent));
+  background-image: linear-gradient(to left, white, transparent);
+  width: 700px;
+  height: 5px;
+  margin-right: 50px;
+}
+
+.fourth-page__projets-title-project {
+  color: white;
+  font-size: 375%;
+  letter-spacing: 0.4rem;
+}
+
+.fourth-page__projets-grad-line12 {
+  background-color: white;
+  width: 150px;
+  height: 5px;
+  margin-left: 50px;
+}
+
+.fourth-page__contenus-slideshow {
+  border: 5px solid white;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.fourth-page__contenus-descriptif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.fourth-page__contenus-descriptif-title3 {
+  color: white;
+  font-size: 350%;
+}
+
+.fourth-page__contenus-descriptif-title4 {
+  color: white;
+  margin-bottom: 5%;
+}
+
+.fourth-page__contenus-descriptif-paragraphe3 {
+  color: white;
+  margin: 1%;
+  width: 500px;
+  margin-bottom: 5%;
+}
+/*# sourceMappingURL=style.css.map */
